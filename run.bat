@@ -1,0 +1,1 @@
+<CHANGEME: Path to VENV Activate Script>\venv\Scripts\activate.bat && python <CHANGEME: Path to script Script>\app.py && exit
