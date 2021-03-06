@@ -1,4 +1,4 @@
-#Find A Vaccine - OSDH
+# Find A Vaccine - OSDH
 
 What the script does:
 TLDR; Scans the Oklahoma State Department of Health (OSDH) website to find covid vaccine sites, with available appointments, within a distance you're comfortable with travelling to receive one. 
