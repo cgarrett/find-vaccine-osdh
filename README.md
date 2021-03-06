@@ -30,10 +30,10 @@ Once an appointment is booked for the unique ID provided in the URL from the sec
 
 ## Required Software:
 - Python 3.x
--- Python Modules:
---- ezgmail (to email results)
---- selenium (to automate the loading and navigating of the site)
---- BeautifulSoup (to parse the contents)
+- - Python Modules:
+- - - ezgmail (to email results)
+- - - selenium (to automate the loading and navigating of the site)
+- - - BeautifulSoup (to parse the contents)
 - Selenium WebDriver (The script uses the Chrome WebDriver as is. I doubt changing it to use another would be terribly difficult.)
 - A GMail account is required to use this script as is.
 
@@ -41,10 +41,10 @@ Once an appointment is booked for the unique ID provided in the URL from the sec
 - Python (https://www.python.org/downloads/)
 - Selenium WebDriver (https://sites.google.com/a/chromium.org/chromedriver/)
 - Setup notes:
--- Make sure the path to your Selenium WebDriver is included in your PATH environment variable
--- Create a virtual environment to install the required Python modules
--- You must follow the GMail setup as outlined in the ezgmail instructions in order for this to work as is. Further modifications may be made to work with other email systems.
--- Schedule the script to run. The instructions below are for a Windows 10 environment that I have admin access on. Your system may be different.
+- - Make sure the path to your Selenium WebDriver is included in your PATH environment variable
+- - Create a virtual environment to install the required Python modules
+- - You must follow the GMail setup as outlined in the ezgmail instructions in order for this to work as is. Further modifications may be made to work with other email systems.
+- - Schedule the script to run. The instructions below are for a Windows 10 environment that I have admin access on. Your system may be different.
 
 ## Basically:
 - Install Python
