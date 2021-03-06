@@ -58,4 +58,4 @@ Once an appointment is booked for the unique ID provided in the URL from the sec
 - Schedule the "run.bat" command through Task Schedule
 - Make sure to leave your computer on during the times you have it scheduled to run.
 
-I can and will not provide any assurances or guarantees that this will run in your environment or work for you as it worked for me. I'm providing this script and instructions as educational information ONLY. It was a "quick and dirty" script that suited my needs and may be modified and improved freely. 
+I can not and will not provide any assurances or guarantees that this will run in your environment or work for you as it worked for me. I'm providing this script and instructions as educational information ONLY. It was a "quick and dirty" script that suited my needs and may be modified and improved freely. 
