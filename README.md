@@ -1,7 +1,7 @@
 # Find A Vaccine - OSDH
 
 ## What the script does:
-TLDR; Scans the Oklahoma State Department of Health (OSDH) website to find covid vaccine sites, with available appointments, within a distance you're comfortable with travelling to receive one. 
+**TLDR;** Scans the Oklahoma State Department of Health (OSDH) website to find covid vaccine sites, with available appointments, within a distance you're comfortable with travelling to receive one. 
 
 The process (as of 3/5/2021) to get to a COVID-19 vaccine through the OSDH is a bit clunky to say the least:
 
@@ -31,11 +31,11 @@ Once an appointment is booked for the unique ID provided in the URL from the sec
 ## Required Software:
 - Python 3.x
 - - Python Modules:
-- - - ezgmail (to email results)
-- - - selenium (to automate the loading and navigating of the site)
-- - - BeautifulSoup (to parse the contents)
+- - - [ezgmail](https://github.com/asweigart/ezgmail) (to email results)
+- - - [selenium](https://github.com/SeleniumHQ/selenium/) (to automate the loading and navigating of the site)
+- - - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) (to parse the contents)
 - Selenium WebDriver (The script uses the Chrome WebDriver as is. I doubt changing it to use another would be terribly difficult.)
-- A GMail account is required to use this script as is.
+- A [GMail](https://gmail.com) account is required to use this script as is.
 
 ## Setup Software (for the most part, follow the recommended installation of the following):
 - Python (https://www.python.org/downloads/)
@@ -51,11 +51,11 @@ Once an appointment is booked for the unique ID provided in the URL from the sec
 - Install Selenium
 - git clone <repo> (at the command prompt where you want the directory created)
 - Open the directory
-- Run in command "python -m venv venv"
-- Run in command ".\venv\activate.bat"
-- Run in command "pip install -r requirements.txt"
+- Run in command `python -m venv venv`
+- Run in command `.\venv\activate.bat`
+- Run in command `pip install -r requirements.txt`
 - Modify the "run.bat" file with the correct paths to the Virtual Environment Activate script and the "app.py" script.
-- Schedule the "run.bat" command through Task Schedule
+- Schedule the "run.bat" command through Task Scheduler (or cron if running in linux)
 - Make sure to leave your computer on during the times you have it scheduled to run.
 
 I can not and will not provide any assurances or guarantees that this will run in your environment or work for you as it worked for me. I'm providing this script and instructions as educational information ONLY. It was a "quick and dirty" script that suited my needs and may be modified and improved freely. 
