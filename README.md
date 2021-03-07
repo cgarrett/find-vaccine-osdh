@@ -5,7 +5,7 @@
 
 The process (as of 3/5/2021) to get to a COVID-19 vaccine through the OSDH is a bit clunky to say the least:
 
-1. You fill out a questionaire. You should recieve an email saying that you are registered.
+1. You fill out a questionaire on https://vaccinate.oklahoma.gov. You should recieve an email saying that you are registered.
 2. If it is determined that you are eligible for the current phase, you will be allowed to search their map for locations that have available appointments within a range that you determine (default being 25 miles). 
 3. You should recieve a second email (when you are eligible to recieve the vaccine) with a link that will take you back to the site where you enter your birthday and locate a site with an available appointment slot. 
 4. You book the appointment at which ever location has an available slot. ** IMPORTANT NOTE: Before booking the slot, please take notice of whether the site offers the first dose, second dose, or both **
