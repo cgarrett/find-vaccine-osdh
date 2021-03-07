@@ -2,6 +2,7 @@
 
 ## What the script does:
 **TLDR;** Scans the Oklahoma State Department of Health (OSDH) website to find covid vaccine sites, with available appointments, within a distance you're comfortable with travelling to receive one. You must register on the [OSDH Vaccination](https://vaccinate.oklahoma.gov) site first and be eligible to receive the vaccine depending on which Phase we are currently in.
+
 ---
 The process (as of 3/5/2021) to get to a COVID-19 vaccine through the OSDH is a bit clunky to say the least:
 
