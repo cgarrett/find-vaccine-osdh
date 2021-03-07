@@ -59,7 +59,7 @@ This script worked as of 3/1/2021. If the state modifies their site or the proce
 - Run in command `pip install -r requirements.txt`
 - Modify the "run.bat" file with the correct paths to the Virtual Environment Activate script and the "app.py" script.
 - Modify the app.py with your information
-- - Line 18: The link (or list of links if you're running it for multiple people) from the second email. ex: https://vaccinate.oklahoma.gov/follow-up-vaccine/?id=<random string of letters and numbers>
+- - Line 18: The link (or list of links if you're running it for multiple people) from the second email. ex: https://vaccinate.oklahoma.gov/follow-up-vaccine/?id=random-string-of-numbers-and-letters
 - - Lines 30-34: Birth month, day, year, email address of the first link from the urls entered on line 18, address, and acceptable distance from the address provided (5, 10, 25, 50, 100, 400) in miles.
 - - Lines 40-52: Uncomment the variables and elif statement for the next link (and so on) in your urls variable from line 18 if applicable.
 - Schedule the "run.bat" command through Task Scheduler (or cron if running in linux)
